@@ -1,0 +1,24 @@
+{
+    "home.title": "Hausaufgabenportal",
+    "home.tabs.student": "Student",
+    "home.tabs.course": "Lehrveranstaltung",
+    "home.tabs.log": "Logs",
+    "home.tabs.error": "Fehler",
+    "home.tabs.schedules": "Zeitplan",
+    "home.tabs.config": "Configuration",
+    "home.tabs.admin": "Admin",
+    "home.loading": "Laden im Gange ...",
+
+    "common.date": "{{date, datetime}}",
+    "common.deadline": "{{date, deadline}}",
+    "common.timestamp": "{{date, timestamp}}",
+
+    "common.generating": "Generieren im Gange ...",
+
+    "common.history.title": "Eregnisgeschichte",
+    "common.history.event": "Ereignis",
+    "common.history.timestamp": "Zeitstempel",
+    "common.history.successful": "Erfolgreich",
+
+    "user.name": "{{familyName}} {{givenName}}"
+}

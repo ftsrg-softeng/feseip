@@ -1,0 +1,19 @@
+{
+  "name": "feseip",
+  "version": "1.0.0",
+  "description": "Framework for the Education of Software Engineering with Industry-ready Practices",
+  "author": "Mihály Dobos-Kovács",
+  "private": true,
+  "license": "AGPL-3.0",
+  "scripts": {
+    "postinstall": "cd server && npm install && cd ../client && npm install",
+    "redeploy": "git pull && npm run build && npm run restart",
+    "build": "cd server && npm run build && cd ../client && npm run build",
+    "start": "pm2 start dist/main.js --name feseip --cwd ./server",
+    "stop": "pm2 delete feseip",
+    "restart": "pm2 restart feseip"
+  },
+  "dependencies": {
+    "pm2": "^6.0.5"
+  }
+}

@@ -1,0 +1,24 @@
+{
+    "home.title": "Homework Portal",
+    "home.tabs.student": "Student",
+    "home.tabs.course": "Course",
+    "home.tabs.log": "Logs",
+    "home.tabs.error": "Errors",
+    "home.tabs.schedules": "Schedules",
+    "home.tabs.config": "Config",
+    "home.tabs.admin": "Admin",
+    "home.loading": "Loading in progress",
+
+    "common.date": "{{date, datetime}}",
+    "common.deadline": "{{date, deadline}}",
+    "common.timestamp": "{{date, timestamp}}",
+
+    "common.generating": "Generating...",
+
+    "common.history.title": "Event History",
+    "common.history.event": "Event",
+    "common.history.timestamp": "Timestamp",
+    "common.history.successful": "Successful",
+
+    "user.name": "{{givenName}} {{familyName}}"
+}
